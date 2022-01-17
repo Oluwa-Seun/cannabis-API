@@ -8,7 +8,7 @@ const canna = [{
     name: 'weedmaps',
     address: 'https://weedmaps.com/strains',
     base: ''
-
+        //TODO add more website for better scrapping and to get more result (strains)
 }]
 
 const articles = []
@@ -41,7 +41,7 @@ app.get('/strains', (req, res) => {
     res.json(articles)
 })
 
-
+// TODO fix for better endpoint reach 
 app.get('/cannabis:cannabisId', (req, res) => {
     const cannabisId = req.params.cannabisId
 
