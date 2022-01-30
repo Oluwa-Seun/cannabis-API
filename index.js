@@ -34,7 +34,7 @@ canna.forEach(cannabi => {
 })
 
 app.get('/', (req, res) => {
-    res.json('Welcome to my Climate Change News API')
+    res.json('Welcome to my Cannabis web scraper API')
 })
 
 app.get('/strains', (req, res) => {
