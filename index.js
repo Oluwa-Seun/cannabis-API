@@ -11,9 +11,14 @@ const strains = [{
             //TODO add more website for better scrapping and to get more result (strains)
     },
     {
-        name: 'lealy',
+        name: 'leafy',
         address: 'https://leafly.com/strains',
         base: 'https://leafly.com'
+    },
+    {
+        name: 'bud',
+        address: 'https://bud.com/strains',
+        base: 'https://bud.com'
     },
 
 ]
